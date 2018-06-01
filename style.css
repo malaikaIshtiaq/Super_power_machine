@@ -1,0 +1,43 @@
+input {
+    text-align: center;
+}
+input {
+    border: 1px;
+    border-color: #f2f2f2;
+    box-shadow: 1px 1px 5px grey;
+}
+  
+input:hover {
+    border: 2px;
+    border-color: grey;
+    box-shadow: 2px 2px 5px grey;
+}
+button {
+    border: 2px;
+    border-color: #f2f2f2;
+    box-shadow: 1px 1px 5px gray;
+}
+button:hover {
+    border: 2px;
+    border-color: grey;
+    box-shadow: 2px 2px 5px gray;
+}
+h1 {
+    text-align: center;
+    color: teal;
+    text-decoration: underline;
+    font-family: verdana;
+}
+p {
+  color: teal;
+}
+p:hover {
+   color: grey;
+   text-shadow: grey;
+}
+
+@media screen and (min-width: 57px) {
+   body {
+   background-color: khaki;
+ }
+}
